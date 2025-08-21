@@ -4,7 +4,7 @@ from ctypes import (
     c_double, c_int16, c_uint32,
     byref, create_string_buffer, c_bool, c_char_p, c_int
 )
-from TLPMX import TLPMX, TLPM_DEFAULT_CHANNEL
+from PowerMeterControl.TLPMX import TLPMX, TLPM_DEFAULT_CHANNEL
 import time
 import statistics
 from matplotlib.figure import Figure
